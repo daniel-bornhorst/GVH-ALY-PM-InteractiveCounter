@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0_breakout_board")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_breakout_board.kicad_sym")(options "")(descr ""))
+  (lib (name "0_connector")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_connector.kicad_sym")(options "")(descr ""))
+  (lib (name "0_logo")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_logo.kicad_sym")(options "")(descr ""))
+  (lib (name "0_microcontroller")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_microcontroller.kicad_sym")(options "")(descr ""))
+  (lib (name "0_power")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_power.kicad_sym")(options "")(descr ""))
+  (lib (name "0_sensor")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_sensor.kicad_sym")(options "")(descr ""))
+)
