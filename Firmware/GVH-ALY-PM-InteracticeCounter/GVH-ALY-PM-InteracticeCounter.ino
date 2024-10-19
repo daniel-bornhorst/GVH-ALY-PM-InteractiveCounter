@@ -30,7 +30,7 @@ const uint8_t dataIn = 12;
 
 
 elapsedMillis shiftTimer;
-const unsigned int shiftInterval = 100;
+const unsigned int shiftInterval = 50;
 
 
 byte incomingByte1;
@@ -95,27 +95,34 @@ void loop() {
     digitalWrite(shiftLoad, HIGH);
     delay(1);
 
-    DEBUG_PRINT("Touch Sample");
-    //DEBUG_PRINT(count++);
+    DEBUG_PRINT("Touch Sample ");
+    DEBUG_PRINT(count++);
     DEBUG_PRINT(": ");
 
     // Byte 3
-    incoming = shiftIn(dataIn, clockPin, MSBFIRST);
-    DEBUG_PRINT(bitRead(incoming, 1)); // We only care about the two least significat bit of the first byte
-    DEBUG_PRINT(bitRead(incoming, 0));
-    //printBinary(incoming);
+    incomingByte3 = shiftIn(dataIn, clockPin, MSBFIRST);
+    //DEBUG_PRINT(bitRead(incomingByte3, 1)); // We only care about the two least significat bit of the first byte
+    //DEBUG_PRINT(bitRead(incomingByte3, 0));
+    //printBinary(incomingByte3);
 
-    DEBUG_PRINT(" ");
+    //DEBUG_PRINT(" ");
 
     // Byte 2
-    incoming = shiftIn(dataIn, clockPin, MSBFIRST);
-    printBinary(incoming);
+    incomingByte2 = shiftIn(dataIn, clockPin, MSBFIRST);
+    //printBinary(incomingByte2);
 
-    DEBUG_PRINT(" ");
+    //DEBUG_PRINT(" ");
 
     // Byte 1
-    incoming = shiftIn(dataIn, clockPin, MSBFIRST);
-    printBinary(incoming);
+    incomingByte1 = shiftIn(dataIn, clockPin, MSBFIRST);
+    //printBinary(incomingByte1);
+
+    uint32_t combinedBytes = combineBytes(incomingByte1, incomingByte2, incomingByte3);
+    printBinaryInt(combinedBytes);
+
+    DEBUG_PRINTLN();
+
+    printTouchGrid(combinedBytes);
 
     DEBUG_PRINTLN();
     
@@ -128,15 +135,36 @@ void loop() {
 
 uint32_t combineBytes(byte byte1, byte byte2, byte byte3) {
   uint32_t combinedBytes = 0;
-
   combinedBytes = (uint32_t)((byte3 << 16) | (byte2 << 8) | (byte1 << 0));
-
   return combinedBytes;
 }
 
 void printBinary(byte inByte) {
   for (int b = 7; b >= 0; b--) {
     DEBUG_PRINT(bitRead(inByte, b));
+  }
+}
+
+void printBinaryInt(uint32_t inInt) {
+  for (int b = 17; b >= 0; b--) {
+    DEBUG_PRINT(bitRead(inInt, b));
+  }
+}
+
+void printTouchGrid(uint32_t touchData) {
+  bool offsetToggle = false;
+  Serial.print("  ");
+  for (int i = 17; i >=0; i--) {
+    Serial.print(bitRead(touchData, i));
+    Serial.print("   ");
+
+    if (i % 3 == 0) {
+      Serial.println();
+      if (offsetToggle){
+        Serial.print("  ");
+      }
+      offsetToggle = !offsetToggle;
+    }
   }
 }
 
