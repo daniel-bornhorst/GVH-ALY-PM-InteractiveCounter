@@ -1,4 +1,4 @@
-23665070904994085
+23668534186745536
 0_breakout_board
 Adafruit IS31FL3731 LED Driver
 
@@ -14,26 +14,33 @@ Adafruit_AW9523_GPIO_Expander
 22
 22
 0_connector
-MOLEX_MICROFIT-RA-2POS
+MOLEX_MICROFIT-RA-2POS_436500200
 
 
 0
 2
 2
 0_connector
-MOLEX_MICROFIT-RA-3POS
+MOLEX_MICROFIT-RA-3POS_436500300
 
 
 0
 3
 3
 0_connector
-MOLEX_MICROFIT-RA-4POS
+MOLEX_MICROFIT-RA-4POS_436500400
 
 
 0
 4
 4
+0_connector
+MOLEX_MICROFIT-RA-5POS_436500500
+
+
+0
+5
+5
 0_connector
 Molex_Micro-Fit_3.0_1x02_Horizontal_Vertical_Combo
 Molex Micro-Fit 3.0 Connector System, 43650-0200 (compatible alternatives: 43650-0201, 43650-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator
@@ -97,6 +104,13 @@ connector molex nano-fit 105313-xx08
 0
 4
 2
+0_integrated_circuits
+74HCT2G34GW_125_SOT363
+
+74HCT2G34GW_125 
+0
+6
+6
 0_logo
 GVH_Cloak_Figure
 

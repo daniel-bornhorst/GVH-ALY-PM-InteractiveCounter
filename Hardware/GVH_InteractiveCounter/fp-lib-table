@@ -6,4 +6,5 @@
   (lib (name "0_microcontroller")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_microcontroller.pretty")(options "")(descr ""))
   (lib (name "0_power")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_power.pretty")(options "")(descr ""))
   (lib (name "0_sensor")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_sensor.pretty")(options "")(descr ""))
+  (lib (name "0_integrated_circuits")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_integrated_circuits.pretty")(options "")(descr ""))
 )
