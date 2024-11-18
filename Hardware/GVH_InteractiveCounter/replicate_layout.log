@@ -1,0 +1,54 @@
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)]'
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001C061A3DCA0>
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U1 as a reference
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U1'
+Located on: ['Touch Sensor 1']
+With filenames: ['Touch_Sensor.kicad_sch']
+With sheet_id:['Touch Sensor 1']
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U2', ['Touch Sensor 2']), ('U1', ['Touch Sensor 1'])]
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Touch Sensor 1', file:'Touch_Sensor.kicad_sch'
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['Touch Sensor 2']]
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['Touch Sensor 1']
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(3795, 109)
+11-16 16:44:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3356, 109)
+11-16 16:44:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Touch Sensor 1', file:'Touch_Sensor.kicad_sch'
+11-16 16:44:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['Touch Sensor 2']]
+11-16 16:44:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['Touch Sensor 2']]
+on level: ['Touch Sensor 1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+11-16 16:44:23 root 332:updating GUI message: 'Preparing for replication'
+11-16 16:44:23 root 337:updating GUI with: 0
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+11-16 16:44:23 root 332:updating GUI message: 'Replicating footprints'
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+11-16 16:44:23 root 337:updating GUI with: 0
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Touch Sensor 2']
+11-16 16:44:23 root 332:updating GUI message: 'Replicating tracks'
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Touch Sensor 2']
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Touch Sensor 2'] :[('Net-(D1-K)', 'Net-(D2-K)'), ('Net-(D1-A)', 'Net-(D2-A)'), ('VCC', 'VCC'), ('Net-(U1-SNS)', 'Net-(U2-SNS)'), ('Net-(U1-SNSK)', 'Net-(U2-SNSK)'), ('/Touch Sensor 1/TOUCH SENSE', '/Touch Sensor 2/TOUCH SENSE'), ('Net-(J4-Pin_1)', 'Net-(J5-Pin_1)'), ('GND', 'GND')]
+11-16 16:44:23 root 332:updating GUI message: 'Replicating zones'
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Touch Sensor 2']
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Touch Sensor 2'] :[('Net-(D1-K)', 'Net-(D2-K)'), ('Net-(D1-A)', 'Net-(D2-A)'), ('VCC', 'VCC'), ('Net-(U1-SNS)', 'Net-(U2-SNS)'), ('Net-(U1-SNSK)', 'Net-(U2-SNSK)'), ('/Touch Sensor 1/TOUCH SENSE', '/Touch Sensor 2/TOUCH SENSE'), ('Net-(J4-Pin_1)', 'Net-(J5-Pin_1)'), ('GND', 'GND')]
+11-16 16:44:23 root 332:updating GUI message: 'Replicating text'
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Touch Sensor 2']
+11-16 16:44:23 root 332:updating GUI message: 'Replicating drawings'
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Touch Sensor 2']
+11-16 16:44:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

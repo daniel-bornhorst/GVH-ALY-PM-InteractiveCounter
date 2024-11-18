@@ -405,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB_Template.kicad_pro",
+    "filename": "GVH_InteractiveCounter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -501,6 +501,10 @@
     [
       "2012002c-7ba5-4575-b93c-d8b37d21ac31",
       ""
+    ],
+    [
+      "8c9deb6f-f5d5-44da-a946-98dd4e29eb78",
+      "Touch Sensor 1"
     ]
   ],
   "text_variables": {}

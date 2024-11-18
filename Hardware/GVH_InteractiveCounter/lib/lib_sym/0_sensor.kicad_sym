@@ -6,7 +6,7 @@
     (property "Value" "AT42QT1010" (at -6.35 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "0_sensor:SOT95P270X145-6N" (at -1.27 13.97 0)
+    (property "Footprint" "0_sensor:AT42QT1010-TSGR_1" (at -1.27 13.97 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf" (at 2.54 19.05 0)
