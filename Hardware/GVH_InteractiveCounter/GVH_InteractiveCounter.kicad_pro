@@ -505,6 +505,34 @@
     [
       "8c9deb6f-f5d5-44da-a946-98dd4e29eb78",
       "Touch Sensor 1"
+    ],
+    [
+      "b0075114-63b6-427c-ace4-a82ab9a59811",
+      "Touch Sensor 2"
+    ],
+    [
+      "9dc5c2b3-410f-41fc-9009-f5eaa40e900e",
+      "Touch Sensor 3"
+    ],
+    [
+      "c9eb03e4-ad2b-428a-ab8b-16893806d411",
+      "Touch Sensor 4"
+    ],
+    [
+      "d3ede22a-e417-4a67-8022-d99ebac90e55",
+      "Touch Sensor 5"
+    ],
+    [
+      "7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8",
+      "Touch Sensor 6"
+    ],
+    [
+      "f5f0f547-5921-492a-b063-b70c3705162a",
+      "Touch Sensor 7"
+    ],
+    [
+      "b127393e-15ce-48f5-8099-6ac66c142525",
+      "Touch Sensor 8"
     ]
   ],
   "text_variables": {}
