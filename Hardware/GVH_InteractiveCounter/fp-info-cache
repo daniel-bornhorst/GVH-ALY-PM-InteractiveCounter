@@ -1,4 +1,4 @@
-23668537377557543
+23670282659015049
 0_breakout_board
 Adafruit IS31FL3731 LED Driver
 
@@ -468,6 +468,13 @@ AT42QT1010-TSGR_1
 0
 6
 6
+0_touch_pad
+Touch Pad
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
