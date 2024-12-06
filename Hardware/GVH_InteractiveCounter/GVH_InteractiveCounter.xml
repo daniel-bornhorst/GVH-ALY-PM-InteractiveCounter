@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\daniel.bornhorst\Documents\Projects\GVH-ALY-PM-InteractiveCounter\Hardware\GVH_InteractiveCounter\GVH_InteractiveCounter.kicad_sch</source>
+    <date>12/5/2024 5:12:48 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Meow Wolf</company>
+        <rev>v.01</rev>
+        <date>2024-11-16</date>
+        <source>GVH_InteractiveCounter.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>Meow Wolf</company>
+        <rev>v0.1</rev>
+        <date>2024-11-16</date>
+        <source>Touch_Sensor.kicad_sch</source>
+        <comment number="1" value="Daniel Bornhorst"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acfad21f-ad36-4760-bca2-f926ae74df56</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.33uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">490-3327-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/murata-electronics/GRM219R71H334KA88D/702591</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="490-3327-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM219R71H334KA88D/702591"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a127f5f1-d794-4a16-86c7-36f08e66db86</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd269936-d391-4086-8c86-089f58f422ed</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b306d12d-e442-478b-bf7b-0f54e80f2ba8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Molex Micro-Fit</value>
+      <footprint>0_connector:Molex_Micro-Fit_3.0_1x05_Horizontal_Vertical_Combo</footprint>
+      <datasheet>https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500500_sd.pdf?inline</datasheet>
+      <fields>
+        <field name="Digikey P/N">WM1863-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/molex/0436500500/268992?s=N4IgTCBcDaIAwBYDMA2ArHOG4gLoF8g</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Mfg. P/N">0436500500</field>
+      </fields>
+      <libsource lib="0_connector" part="Molex Micro-Fit 5pos" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="MOLEX"/>
+      <property name="Mfg. P/N" value="0436500500"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/molex/0436500500/268992?s=N4IgTCBcDaIAwBYDMA2ArHOG4gLoF8g"/>
+      <property name="Digikey P/N" value="WM1863-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cfe55ba-dc83-47f5-95aa-ef3eb7a8f591</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Molex Micro-Fit</value>
+      <footprint>0_connector:Molex_Micro-Fit_3.0_1x05_Horizontal_Vertical_Combo</footprint>
+      <datasheet>https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500500_sd.pdf?inline</datasheet>
+      <fields>
+        <field name="Digikey P/N">WM1863-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/molex/0436500500/268992?s=N4IgTCBcDaIAwBYDMA2ArHOG4gLoF8g</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Mfg. P/N">0436500500</field>
+      </fields>
+      <libsource lib="0_connector" part="Molex Micro-Fit 5pos" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="MOLEX"/>
+      <property name="Mfg. P/N" value="0436500500"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/molex/0436500500/268992?s=N4IgTCBcDaIAwBYDMA2ArHOG4gLoF8g"/>
+      <property name="Digikey P/N" value="WM1863-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8eecf429-65cc-43de-ab4a-4e4588df9f81</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-100CRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfg. P/N">RC0805FR-07100RL</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Mfg. P/N" value="RC0805FR-07100RL"/>
+      <property name="Digikey P/N" value="311-100CRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1003235d-6c4a-4a55-a646-1e0ae9bdf957</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-100CRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Mfg. P/N">RC0805FR-07100RL</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Mfg. P/N" value="RC0805FR-07100RL"/>
+      <property name="Digikey P/N" value="311-100CRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c162ca1-4ad5-4c4a-913a-d4a9890b0aad</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>SN74HC165DR</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74hc165.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">296-8250-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/texas-instruments/SN74HC165DR/377068</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Mfg. P/N">SN74HC165DR</field>
+      </fields>
+      <libsource lib="0_integrated_circuits" part="SN74HC165N" description="8 Bit Parallel Load Shift Register"/>
+      <property name="Manufacturer" value="TI"/>
+      <property name="Mfg. P/N" value="SN74HC165DR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/texas-instruments/SN74HC165DR/377068"/>
+      <property name="Digikey P/N" value="296-8250-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="8 Bit Parallel Load Shift Register"/>
+      <property name="ki_keywords" value="SN74HC165N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53dd6d73-b5e6-43f6-a5b0-349845c3f081</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">497-1443-5-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Mfg. P/N">L7805CV</field>
+        <field name="Package">TO-220-3</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="Digikey P/N" value="497-1443-5-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964"/>
+      <property name="Package" value="TO-220-3"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Mfg. P/N" value="L7805CV"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d6882c5-2c62-431f-a680-ef7645586338</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>SN74LVC2G17</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">296-SN74LVC2G17DBVRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC2G17DBVR/479735</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Mfg. P/N">SN74LVC2G17DBVR</field>
+      </fields>
+      <libsource lib="0_integrated_circuits" part="SN74LVC2G17" description=""/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Mfg. P/N" value="SN74LVC2G17DBVR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC2G17DBVR/479735"/>
+      <property name="Digikey P/N" value="296-SN74LVC2G17DBVRCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GVH_InteractiveCounter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41cdef32-afd6-4aae-bffb-faaa010095f1</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 1"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 1"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 1"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 1"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 1"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 1"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 1"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 1/" tstamps="/8c9deb6f-f5d5-44da-a946-98dd4e29eb78/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 2"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 2"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 2"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 2"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 2"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 2"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 2"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 2/" tstamps="/b0075114-63b6-427c-ace4-a82ab9a59811/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 3"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 3"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 3"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 3"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 3"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 3"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 3"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 3/" tstamps="/9dc5c2b3-410f-41fc-9009-f5eaa40e900e/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 4"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 4"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 4"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 4"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 4"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 4"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 4"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 4/" tstamps="/c9eb03e4-ad2b-428a-ab8b-16893806d411/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 5"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 5"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 5"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 5"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 5"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 5"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 5"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 5/" tstamps="/d3ede22a-e417-4a67-8022-d99ebac90e55/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 6"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 6"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 6"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 6"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 6"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 6"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 6"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 6/" tstamps="/7f87c6ff-333a-439b-ba55-f9ec9e7c8ec8/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 7"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 7"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 7"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 7"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 7"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 7"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 7"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 7/" tstamps="/f5f0f547-5921-492a-b063-b70c3705162a/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1140-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digikey P/N" value="311-1140-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 8"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/"/>
+      <tstamps>bc795c95-0efc-4217-a989-3a1105784171</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1138-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1138-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB223/302872"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 8"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/"/>
+      <tstamps>a84a29d3-59c9-47c8-aba8-44c754727599</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>Touch_Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">160-1423-1-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Package" value="0805"/>
+      <property name="Digikey P/N" value="160-1423-1-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171GKT/386793"/>
+      <property name="Sheetname" value="Touch Sensor 8"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/"/>
+      <tstamps>f56f5da8-6c69-4312-912a-61fde08bb72c</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Touch Sensor 8"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/"/>
+      <tstamps>8a164902-74c1-4d8d-bd18-056a85a3052a</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-1.00KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 8"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/"/>
+      <tstamps>ece1e702-c80f-4e0e-90fc-a8952ec48efe</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey P/N">311-10.0KCRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Mfg. P/N" value=""/>
+      <property name="Digikey P/N" value="311-10.0KCRCT-ND"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="Touch Sensor 8"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/"/>
+      <tstamps>e845fffe-7881-43f4-8f01-3a60f47d564b</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>AT42QT1010</value>
+      <footprint>0_sensor:AT42QT1010-TSGR_1</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</datasheet>
+      <fields>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+      </fields>
+      <libsource lib="0_sensor" part="AT42QT1010-TSHR_1" description=""/>
+      <property name="Manufacturer" value="MICROCHIP"/>
+      <property name="Mfg. P/N" value="AT42QT1010-TSHR"/>
+      <property name="Digikey Page" value="https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866"/>
+      <property name="Digikey P/N" value="AT42QT1010-TSHRCT-ND"/>
+      <property name="Sheetname" value="Touch Sensor 8"/>
+      <property name="Sheetfile" value="Touch_Sensor.kicad_sch"/>
+      <sheetpath names="/Touch Sensor 8/" tstamps="/b127393e-15ce-48f5-8099-6ac66c142525/"/>
+      <tstamps>07b38c8f-dea0-4141-85db-12e3c22835e7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Conn_01x01_1">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_connector" part="Molex Micro-Fit 5pos">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500500_sd.pdf?inline</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex Micro-Fit 5pos</field>
+        <field name="Footprint">0_connector:MOLEX_MICROFIT-RA-5POS_436500500</field>
+        <field name="Datasheet">https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500500_sd.pdf?inline</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Mfg. P/N">0436500500</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/molex/0436500500/268992?s=N4IgTCBcDaIAwBYDMA2ArHOG4gLoF8g</field>
+        <field name="Digikey P/N">WM1863-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_integrated_circuits" part="SN74HC165N">
+      <description>8 Bit Parallel Load Shift Register</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74hc165.pdf</docs>
+      <footprints>
+        <fp>N16</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC165N</field>
+        <field name="Footprint">Package_DIP:DIP-16_W10.16mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74hc165.pdf</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Mfg. P/N">SN74HC165N</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/texas-instruments/SN74HC165N/376966</field>
+        <field name="Digikey P/N">296-8251-5-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{LD}" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="E" type="input"/>
+        <pin num="4" name="F" type="input"/>
+        <pin num="5" name="G" type="input"/>
+        <pin num="6" name="H" type="input"/>
+        <pin num="7" name="~{QH}" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH" type="output"/>
+        <pin num="10" name="SER" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="B" type="input"/>
+        <pin num="13" name="C" type="input"/>
+        <pin num="14" name="D" type="input"/>
+        <pin num="15" name="~{CE}" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_integrated_circuits" part="SN74LVC2G17">
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC2G17</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Mfg. P/N">SN74LVC2G17DBVR</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC2G17DBVR/479735</field>
+        <field name="Digikey P/N">296-SN74LVC2G17DBVRCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="input"/>
+        <pin num="5" name="VCC" type="input"/>
+        <pin num="6" name="1Y" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_logo" part="MeowWolf_Logo_Horizontal">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">MeowWolf_Logo_Horizontal</field>
+      </fields>
+    </libpart>
+    <libpart lib="0_sensor" part="AT42QT1010-TSHR_1">
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT42QT1010</field>
+        <field name="Footprint">0_sensor:SOT95P270X145-6N</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Mfg. P/N">AT42QT1010-TSHR</field>
+        <field name="Digikey Page">https://www.digikey.com/en/products/detail/microchip-technology/AT42QT1010-TSHR/2268866</field>
+        <field name="Digikey P/N">AT42QT1010-TSHRCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SNSK" type="bidirectional"/>
+        <pin num="4" name="SNS" type="bidirectional"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SYNC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_connector">
+      <uri>C:\Users\daniel.bornhorst\Documents\Projects\GVH-ALY-PM-InteractiveCounter\Hardware\GVH_InteractiveCounter/lib/lib_sym/0_connector.kicad_sym</uri>
+    </library>
+    <library logical="0_integrated_circuits">
+      <uri>C:\Users\daniel.bornhorst\Documents\Projects\GVH-ALY-PM-InteractiveCounter\Hardware\GVH_InteractiveCounter/lib/lib_sym/0_integrated_circuits.kicad_sym</uri>
+    </library>
+    <library logical="0_logo">
+      <uri>C:\Users\daniel.bornhorst\Documents\Projects\GVH-ALY-PM-InteractiveCounter\Hardware\GVH_InteractiveCounter/lib/lib_sym/0_logo.kicad_sym</uri>
+    </library>
+    <library logical="0_sensor">
+      <uri>C:\Users\daniel.bornhorst\Documents\Projects\GVH-ALY-PM-InteractiveCounter\Hardware\GVH_InteractiveCounter/lib/lib_sym/0_sensor.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U10" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U11" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U13" pin="5" pinfunction="VCC" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U8" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/Touch Sensor 1/TOUCH_PAD">
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/Touch Sensor 2/TOUCH_PAD">
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Touch Sensor 3/TOUCH_PAD">
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Touch Sensor 4/TOUCH_PAD">
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/Touch Sensor 5/TOUCH_PAD">
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/Touch Sensor 6/TOUCH_PAD">
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Touch Sensor 7/TOUCH_PAD">
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/Touch Sensor 8/TOUCH_PAD">
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="CLK">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="11" name="CLK_OUT">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U11" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U8" pin="15" pinfunction="~{CE}" pintype="input"/>
+      <node ref="U8" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="13" name="LOAD_OUT">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="~{LD}" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D5-K)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D7-K)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D8-K)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(JP14-A)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="1Y" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(JP14-B)">
+      <node ref="U13" pin="1" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(JP15-A)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="2Y" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(JP15-B)">
+      <node ref="U13" pin="3" pinfunction="2A" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U1-SNS)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(U1-SNSK)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(U2-SNS)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(U2-SNSK)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(U3-SNS)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(U3-SNSK)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(U4-SNS)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(U4-SNSK)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(U5-SNS)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(U5-SNSK)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(U6-SNS)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(U6-SNSK)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(U7-SNS)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(U7-SNSK)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="Net-(U10-SNS)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="SNS" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(U10-SNSK)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="SNSK" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="SERIAL_IN">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U8" pin="10" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="51" name="SERIAL_OUT">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="QH" pintype="output"/>
+    </net>
+    <net code="52" name="TOUCH_1">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="6" pinfunction="H" pintype="input"/>
+    </net>
+    <net code="53" name="TOUCH_2">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="5" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="54" name="TOUCH_3">
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="4" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="55" name="TOUCH_4">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="3" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="56" name="TOUCH_5">
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="14" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="57" name="TOUCH_6">
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="13" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="58" name="TOUCH_7">
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="12" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="59" name="TOUCH_8">
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="11" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="60" name="VCC">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="61" name="unconnected-(U8-~{QH}-Pad7)">
+      <node ref="U8" pin="7" pinfunction="~{QH}" pintype="output+no_connect"/>
+    </net>
+    <net code="62" name="~{LOAD}">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+  </nets>
+</export>

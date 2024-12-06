@@ -45,4 +45,9 @@
     (solder_mask_margin 0.102) (tstamp ec6ef0ec-0df3-4d88-a7fd-71913c415a3c))
   (pad "6" smd rect (at 1.17 -0.95) (size 1.37 0.59) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 6257b608-d9c0-4853-a551-09a9ad423ff6))
+  (model "${KIPRJMOD}/lib/3d_models/AT42QT1010-TSHR.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
