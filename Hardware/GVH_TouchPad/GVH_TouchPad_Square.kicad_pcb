@@ -10784,6 +10784,9 @@
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp f67fa3a2-8d08-498a-aaef-240d45cbf594))
   (gr_arc (start 190.5 107.569) (mid 186.009872 105.709128) (end 184.15 101.219)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp f6db234e-1547-457c-8c7e-29e9faf98b4e))
+  (gr_text "GVH • Square Cap Touch Pad • V0.1\nDaniel Bornhorst • 12/2024" (at 218.567 95.377) (layer "B.SilkS") (tstamp 5ca9f459-634b-4b29-ac09-97480d13d0f7)
+    (effects (font (size 1.016 1.016) (thickness 0.254) bold) (justify bottom mirror))
+  )
 
   (segment (start 248.539 102.489) (end 247.269 101.219) (width 0.254) (layer "F.Cu") (net 2) (tstamp dd50ea23-9892-433f-bd85-8a3f118f61fc))
   (via (at 248.539 102.489) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 2) (tstamp f902210d-7442-46ab-a55b-5f3272079bef))
