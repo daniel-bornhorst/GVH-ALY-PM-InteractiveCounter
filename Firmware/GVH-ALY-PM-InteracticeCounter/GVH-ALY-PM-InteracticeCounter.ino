@@ -23,21 +23,28 @@ EthernetUDP Udp;
 #include <OSCMessage.h>
 OSCMessage msg;
 
-
+/* Values for v1 protoboard
 const uint8_t clockPin = 13;
 const uint8_t shiftLoad = 11;
 const uint8_t dataIn = 12;
+*/
+const uint8_t clockPin = 9;
+const uint8_t shiftLoad = 7;
+const uint8_t dataIn = 6;
 
 
 elapsedMillis shiftTimer;
-const unsigned int shiftInterval = 50;
+const unsigned int shiftInterval = 5;
 
 
 byte incomingByte1;
 byte incomingByte2;
 byte incomingByte3;
 uint32_t combinedBytes = 0;
+uint32_t old_combinedBytes = 0;
 int count = 0;
+
+byte oldIncomingByte1;
 
 void setup() {
   Serial.begin(9600); delay(10);
@@ -91,16 +98,22 @@ void loop() {
 
   if (shiftTimer >= shiftInterval) {
     digitalWrite(shiftLoad, LOW);
-    delay(1);
+    delayMicroseconds(100);
     digitalWrite(shiftLoad, HIGH);
-    delay(1);
+    delayMicroseconds(100);
 
-    DEBUG_PRINT("Touch Sample ");
-    DEBUG_PRINT(count++);
-    DEBUG_PRINT(": ");
+    // DEBUG_PRINT("Touch Sample ");
+    // DEBUG_PRINT(count++);
+    // DEBUG_PRINT(": ");
 
     // Byte 3
-    incomingByte3 = shiftIn(dataIn, clockPin, MSBFIRST);
+    incomingByte1 = shiftIn(dataIn, clockPin, MSBFIRST);
+
+    // if (oldIncomingByte1 != incomingByte3) {
+    //   printBinary(incomingByte3);
+    //   DEBUG_PRINTLN();
+    //   oldIncomingByte1 = incomingByte3;
+    // }
     //DEBUG_PRINT(bitRead(incomingByte3, 1)); // We only care about the two least significat bit of the first byte
     //DEBUG_PRINT(bitRead(incomingByte3, 0));
     //printBinary(incomingByte3);
@@ -114,28 +127,39 @@ void loop() {
     //DEBUG_PRINT(" ");
 
     // Byte 1
-    incomingByte1 = shiftIn(dataIn, clockPin, MSBFIRST);
+    incomingByte3 = shiftIn(dataIn, clockPin, MSBFIRST);
     //printBinary(incomingByte1);
 
-    uint32_t combinedBytes = combineBytes(incomingByte1, incomingByte2, incomingByte3);
-    printBinaryInt(combinedBytes);
+    combinedBytes = combineBytes(incomingByte1, incomingByte2, incomingByte3);
+    
+    //printBinaryInt(combinedBytes);
 
-    DEBUG_PRINTLN();
+    if (combinedBytes != old_combinedBytes) {
+      DEBUG_PRINT("Touch Sample ");
+      DEBUG_PRINT(count++);
+      DEBUG_PRINT(": ");
+      printBinaryInt(combinedBytes);
+      DEBUG_PRINTLN();
+      old_combinedBytes = combinedBytes;
+    }
 
-    printTouchGrid(combinedBytes);
+    //DEBUG_PRINTLN();
 
-    DEBUG_PRINTLN();
+    //printTouchGrid(combinedBytes);
+    
+
+    //DEBUG_PRINTLN();
     
     shiftTimer = 0;
   }
 
-  OSCReceive();
+  //OSCReceive();
 
 }
 
 uint32_t combineBytes(byte byte1, byte byte2, byte byte3) {
   uint32_t combinedBytes = 0;
-  combinedBytes = (uint32_t)((byte3 << 16) | (byte2 << 8) | (byte1 << 0));
+  combinedBytes = (uint32_t)((byte1 << 16) | (byte2 << 8) | (byte3 << 0));
   return combinedBytes;
 }
 
@@ -146,8 +170,13 @@ void printBinary(byte inByte) {
 }
 
 void printBinaryInt(uint32_t inInt) {
-  for (int b = 17; b >= 0; b--) {
+  for (int b = 23; b >= 0; b--) {
     DEBUG_PRINT(bitRead(inInt, b));
+
+    // add a space after each byte
+    if (b % 8 == 0) {
+      DEBUG_PRINT(" ");
+    }
   }
 }
 
