@@ -122,6 +122,7 @@ void loop() {
 
     // Byte 2
     incomingByte2 = shiftIn(dataIn, clockPin, MSBFIRST);
+    incomingByte2 = flipByte(incomingByte2);
     //printBinary(incomingByte2);
 
     //DEBUG_PRINT(" ");
@@ -195,6 +196,22 @@ void printTouchGrid(uint32_t touchData) {
       offsetToggle = !offsetToggle;
     }
   }
+}
+
+// void reverseBitOrder(byte *myByte) {
+//   for(int i = 0; i < 8; ++i) {
+
+//   }
+// }
+
+byte flipByte(byte c){
+  char r=0;
+  for(byte i = 0; i < 8; i++){
+    r <<= 1;
+    r |= c & 1;
+    c >>= 1;
+  }
+  return r;
 }
 
 void OSCReceive() {
