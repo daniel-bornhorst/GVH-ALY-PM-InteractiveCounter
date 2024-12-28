@@ -36,15 +36,21 @@ const uint8_t dataIn = 6;
 elapsedMillis shiftTimer;
 const unsigned int shiftInterval = 5;
 
+const uint8_t numSensorBoards = 5;
 
 byte incomingByte1;
 byte incomingByte2;
 byte incomingByte3;
+byte incomingBytes[numSensorBoards];
+byte old_incomingBytes[numSensorBoards];
+
 uint32_t combinedBytes = 0;
 uint32_t old_combinedBytes = 0;
 int count = 0;
 
 byte oldIncomingByte1;
+
+bool changeDetected = false;
 
 void setup() {
   Serial.begin(9600); delay(10);
@@ -97,60 +103,50 @@ void setup() {
 void loop() {
 
   if (shiftTimer >= shiftInterval) {
+
+    // Latch the shift register inputs
     digitalWrite(shiftLoad, LOW);
     delayMicroseconds(100);
     digitalWrite(shiftLoad, HIGH);
     delayMicroseconds(100);
 
-    // DEBUG_PRINT("Touch Sample ");
-    // DEBUG_PRINT(count++);
-    // DEBUG_PRINT(": ");
+    // Iterate through each board and shift data in
+    for (int i = 0; i < numSensorBoards; ++i) {
 
-    // Byte 3
-    incomingByte1 = shiftIn(dataIn, clockPin, MSBFIRST);
+      // Shiftd data in stored to byte array
+      incomingBytes[i] = shiftIn(dataIn, clockPin, MSBFIRST);
 
-    // if (oldIncomingByte1 != incomingByte3) {
-    //   printBinary(incomingByte3);
-    //   DEBUG_PRINTLN();
-    //   oldIncomingByte1 = incomingByte3;
-    // }
-    //DEBUG_PRINT(bitRead(incomingByte3, 1)); // We only care about the two least significat bit of the first byte
-    //DEBUG_PRINT(bitRead(incomingByte3, 0));
-    //printBinary(incomingByte3);
+      // Flip the bits of every other byte
+      if (!(i % 2)) {
+        flipByte(&incomingBytes[i]);
+      }
 
-    //DEBUG_PRINT(" ");
+      // Check if a new touch or release has been detected
+      if (incomingBytes[i] != old_incomingBytes[i]) {
+        changeDetected = true;
+      }
 
-    // Byte 2
-    incomingByte2 = shiftIn(dataIn, clockPin, MSBFIRST);
-    incomingByte2 = flipByte(incomingByte2);
-    //printBinary(incomingByte2);
+      old_incomingBytes[i] = incomingBytes[i];
+    }
 
-    //DEBUG_PRINT(" ");
 
-    // Byte 1
-    incomingByte3 = shiftIn(dataIn, clockPin, MSBFIRST);
-    //printBinary(incomingByte1);
+    if (changeDetected) {
 
-    combinedBytes = combineBytes(incomingByte1, incomingByte2, incomingByte3);
-    
-    //printBinaryInt(combinedBytes);
-
-    if (combinedBytes != old_combinedBytes) {
       DEBUG_PRINT("Touch Sample ");
       DEBUG_PRINT(count++);
       DEBUG_PRINT(": ");
-      printBinaryInt(combinedBytes);
+
+      for (int j = 0; j < numSensorBoards; ++j) {
+        printBinary(incomingBytes[j]);
+        DEBUG_PRINT(" ");
+      }
+
       DEBUG_PRINTLN();
-      old_combinedBytes = combinedBytes;
+
+      changeDetected = false;
     }
 
-    //DEBUG_PRINTLN();
-
-    //printTouchGrid(combinedBytes);
-    
-
-    //DEBUG_PRINTLN();
-    
+    // reset timer
     shiftTimer = 0;
   }
 
@@ -204,14 +200,14 @@ void printTouchGrid(uint32_t touchData) {
 //   }
 // }
 
-byte flipByte(byte c){
+void flipByte(byte *c){
   char r=0;
   for(byte i = 0; i < 8; i++){
     r <<= 1;
-    r |= c & 1;
-    c >>= 1;
+    r |= *c & 1;
+    *c >>= 1;
   }
-  return r;
+  *c = r;
 }
 
 void OSCReceive() {
