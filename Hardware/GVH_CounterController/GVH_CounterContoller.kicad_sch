@@ -3217,7 +3217,7 @@
   (junction (at 64.77 51.308) (diameter 0) (color 0 0 0 0)
     (uuid b4e34b85-d98f-417b-86c2-9fe280736faf)
   )
-  (junction (at 111.76 218.44) (diameter 0) (color 0 0 0 0)
+  (junction (at 203.2 224.79) (diameter 0) (color 0 0 0 0)
     (uuid b8335617-88f0-4a4e-8b7a-a7db39292351)
   )
   (junction (at 83.058 119.126) (diameter 0) (color 0 0 0 0)
@@ -3232,7 +3232,7 @@
   (junction (at 41.148 119.126) (diameter 0) (color 0 0 0 0)
     (uuid cfd40a32-5c00-48ba-a64f-2da5978da414)
   )
-  (junction (at 120.65 209.55) (diameter 0) (color 0 0 0 0)
+  (junction (at 212.09 215.9) (diameter 0) (color 0 0 0 0)
     (uuid e61ff865-9308-485b-87f6-2a455c746b7d)
   )
   (junction (at 69.088 130.556) (diameter 0) (color 0 0 0 0)
@@ -3291,7 +3291,7 @@
     (stroke (width 0) (type default))
     (uuid 0aa3e4e0-49c8-4c0e-a259-23a9ad25054b)
   )
-  (wire (pts (xy 111.76 217.17) (xy 111.76 218.44))
+  (wire (pts (xy 203.2 223.52) (xy 203.2 224.79))
     (stroke (width 0) (type default))
     (uuid 0bbffde9-e847-47ac-89e3-4aaf0d6f7504)
   )
@@ -3307,7 +3307,7 @@
     (stroke (width 0) (type default))
     (uuid 10dde5f9-a023-46ec-b84f-307a260c9f27)
   )
-  (wire (pts (xy 111.76 209.55) (xy 120.65 209.55))
+  (wire (pts (xy 203.2 215.9) (xy 212.09 215.9))
     (stroke (width 0) (type default))
     (uuid 10f8dc59-62fa-4294-a00b-b2d34c5346aa)
   )
@@ -3348,7 +3348,7 @@
     (uuid 233da271-7b05-4566-93a0-185e798cdd8a)
   )
 
-  (wire (pts (xy 120.65 208.28) (xy 120.65 209.55))
+  (wire (pts (xy 212.09 214.63) (xy 212.09 215.9))
     (stroke (width 0) (type default))
     (uuid 2513a223-5d91-484e-9d38-ff6b51fdd6cf)
   )
@@ -3571,7 +3571,7 @@
     (stroke (width 0) (type default))
     (uuid 72b7f235-6ce1-4207-8410-1ffa2160439f)
   )
-  (wire (pts (xy 120.65 209.55) (xy 120.65 210.82))
+  (wire (pts (xy 212.09 215.9) (xy 212.09 217.17))
     (stroke (width 0) (type default))
     (uuid 732ab461-a2aa-45d2-ada2-d8dc0b9b90d6)
   )
@@ -3676,7 +3676,7 @@
     (stroke (width 0) (type default))
     (uuid 97f31a0f-a2e6-4c03-a97b-4f2692d9d00f)
   )
-  (wire (pts (xy 109.22 218.44) (xy 111.76 218.44))
+  (wire (pts (xy 200.66 224.79) (xy 203.2 224.79))
     (stroke (width 0) (type default))
     (uuid 9a30601b-a19b-4e21-afb3-fe75bff03382)
   )
@@ -3765,7 +3765,7 @@
     (stroke (width 0) (type default))
     (uuid b72a7624-7ec1-4681-8589-00e1fcd312b8)
   )
-  (wire (pts (xy 111.76 218.44) (xy 113.03 218.44))
+  (wire (pts (xy 203.2 224.79) (xy 204.47 224.79))
     (stroke (width 0) (type default))
     (uuid b9a14ade-2327-4860-8d2b-d658abc79df7)
   )
@@ -3938,7 +3938,7 @@
     (uuid fd794f17-9acd-468b-adb8-51d7c9eab6be)
   )
 
-  (rectangle (start 34.29 196.85) (end 81.28 229.87)
+  (rectangle (start 125.73 203.2) (end 172.72 236.22)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 1065b6df-d5e2-41f4-8400-489c535ef2a5)
@@ -3963,7 +3963,7 @@
     (fill (type none))
     (uuid d541d070-cd93-4cc2-ac01-39eb03e17dfe)
   )
-  (rectangle (start 83.82 196.85) (end 147.32 240.03)
+  (rectangle (start 175.26 203.2) (end 238.76 246.38)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid d77f085b-0405-4434-8e20-7dc43c10dd8a)
@@ -3978,7 +3978,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ee34eeb-fdd8-4a43-8eca-e7ee99f2ce11)
   )
-  (text "Temperature Sensor" (at 85.09 200.66 0)
+  (text "Temperature Sensor" (at 176.53 207.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 29d40c9b-e528-4c39-a2a4-c3e7deada30d)
   )
@@ -4010,7 +4010,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9d830197-8bff-44fc-911a-40fa46df5d27)
   )
-  (text "Status LED" (at 35.56 200.66 0)
+  (text "Status LED" (at 127 207.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e481593b-8c3e-4098-8d90-cd966d5a1dc7)
   )
@@ -4037,10 +4037,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "TEMP_SENS1" (shape input) (at 109.22 218.44 180) (fields_autoplaced)
+  (global_label "TEMP_SENS1" (shape input) (at 200.66 224.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 38a9e136-5f51-4a90-94dd-dfd37d93131d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 94.3212 218.44 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 185.7612 224.79 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4051,10 +4051,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "STATUS_PIXEL" (shape input) (at 50.8 213.36 180) (fields_autoplaced)
+  (global_label "STATUS_PIXEL" (shape input) (at 142.24 219.71 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d9a00d9a-9456-4a63-ac0e-78644fe5d2c5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 34.8125 213.36 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.2525 219.71 0)
       (effects (font (size 1.27 1.27) bold) (justify right) hide)
     )
   )
@@ -4069,7 +4069,7 @@
   (symbol (lib_id "Device:C_Small") (at 83.058 124.206 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00001d0b-17f5-417e-9302-3576b91b2f55)
-    (property "Reference" "C13" (at 85.598 122.936 0)
+    (property "Reference" "C5" (at 85.598 122.936 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 85.598 125.476 0)
@@ -4092,7 +4092,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "C13") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4101,7 +4101,7 @@
   (symbol (lib_id "power:GND") (at 86.995 183.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 030de5fb-7aaf-4629-adab-4b2dbd11b736)
-    (property "Reference" "#PWR019" (at 86.995 189.865 0)
+    (property "Reference" "#PWR022" (at 86.995 189.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.122 187.9092 0)
@@ -4117,7 +4117,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4275,7 +4275,7 @@
   (symbol (lib_id "MeowWolf_Power:+12V_ISO") (at 344.17 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 101fb42f-d5ef-4c82-ac11-5ab22a4992fa)
-    (property "Reference" "#PWR035" (at 344.17 40.64 0)
+    (property "Reference" "#PWR06" (at 344.17 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V_ISO" (at 344.17 31.75 0)
@@ -4291,7 +4291,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4342,7 +4342,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 50.8 48.768 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ed614be-ee3d-493b-a1ea-5f5f9d747cd9)
-    (property "Reference" "J5" (at 45.085 48.768 0)
+    (property "Reference" "J2" (at 45.085 48.768 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Barrel jack" (at 52.2478 43.0276 0)
@@ -4378,7 +4378,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4392,7 +4392,7 @@
   (symbol (lib_id "power:GND") (at 78.74 53.848 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fa67844-6cce-4c5a-aff8-24a617d3c10d)
-    (property "Reference" "#PWR028" (at 78.74 60.198 0)
+    (property "Reference" "#PWR07" (at 78.74 60.198 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.867 58.2422 0)
@@ -4408,7 +4408,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4422,7 +4422,7 @@
   (symbol (lib_id "Device:R_Small") (at 303.53 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 249e82b1-7761-4bce-b779-3389574be0f4)
-    (property "Reference" "R7" (at 298.45 90.678 0)
+    (property "Reference" "R3" (at 298.45 90.678 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 298.45 92.71 0)
@@ -4445,7 +4445,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4486,7 +4486,7 @@
   (symbol (lib_id "Device:R_Small") (at 299.72 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38ad601a-2621-4a8e-9966-4e2a59c2e6c0)
-    (property "Reference" "R6" (at 299.72 83.185 90)
+    (property "Reference" "R2" (at 299.72 83.185 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 299.72 87.63 90)
@@ -4524,7 +4524,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "R6") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4541,7 +4541,7 @@
   (symbol (lib_id "Device:R_Small") (at 82.55 180.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38f64f42-0d26-4ba5-8af7-4f556b9c356a)
-    (property "Reference" "R2" (at 82.55 178.435 90)
+    (property "Reference" "R6" (at 82.55 178.435 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 82.55 182.88 90)
@@ -4579,7 +4579,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4596,7 +4596,7 @@
   (symbol (lib_id "power:+3.3V") (at 83.058 117.348 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c1fc1d5-c32e-4fee-9ca7-432ee459e26b)
-    (property "Reference" "#PWR031" (at 83.058 121.158 0)
+    (property "Reference" "#PWR014" (at 83.058 121.158 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 83.439 112.9538 0)
@@ -4612,7 +4612,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4623,26 +4623,26 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 58.42 205.74 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 149.86 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ea39875-551c-4047-9a6f-c5e0ea982496)
-    (property "Reference" "#PWR020" (at 58.42 209.55 0)
+    (property "Reference" "#PWR023" (at 149.86 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 58.42 200.66 0)
+    (property "Value" "+5V" (at 149.86 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 58.42 205.74 0)
+    (property "Footprint" "" (at 149.86 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 58.42 205.74 0)
+    (property "Datasheet" "" (at 149.86 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid deb5228d-9b79-4180-8242-1e3a9d81cd35))
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -4708,7 +4708,7 @@
   (symbol (lib_id "power:+3.3V") (at 288.29 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49a55a5d-4d3c-4c1a-8f7e-7fc6aa40ea26)
-    (property "Reference" "#PWR036" (at 288.29 76.2 0)
+    (property "Reference" "#PWR08" (at 288.29 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 288.671 67.9958 0)
@@ -4724,7 +4724,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4738,7 +4738,7 @@
   (symbol (lib_id "power:+12V") (at 308.61 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a195ddb-5898-449e-8c06-3f225e5ee435)
-    (property "Reference" "#PWR013" (at 308.61 40.64 0)
+    (property "Reference" "#PWR04" (at 308.61 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 308.61 31.75 0)
@@ -4754,7 +4754,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -4819,7 +4819,7 @@
   (symbol (lib_id "0_power:RT9080-3.3") (at 69.088 120.396 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 520eab4c-56f7-4df5-ade4-6d9ea956575e)
-    (property "Reference" "U4" (at 69.088 111.506 0)
+    (property "Reference" "U3" (at 69.088 111.506 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RT9080-3.3" (at 69.088 114.046 0)
@@ -4845,7 +4845,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4854,7 +4854,7 @@
   (symbol (lib_id "0_microcontroller:Teensy4.1_ethernet_only") (at 175.26 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55509b59-84f2-43bd-8261-cc7b21b9d751)
-    (property "Reference" "U8" (at 175.26 33.528 0)
+    (property "Reference" "U1" (at 175.26 33.528 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Teensy4.1" (at 175.26 36.068 0)
@@ -4923,7 +4923,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "U8") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -4981,26 +4981,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 58.42 220.98 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 149.86 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5824f145-5daf-443f-8277-c464022a3a9e)
-    (property "Reference" "#PWR022" (at 58.42 227.33 0)
+    (property "Reference" "#PWR025" (at 149.86 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 58.42 226.06 0)
+    (property "Value" "GND" (at 149.86 232.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 58.42 220.98 0)
+    (property "Footprint" "" (at 149.86 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 58.42 220.98 0)
+    (property "Datasheet" "" (at 149.86 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 95a8771b-594d-403c-af2b-dd0972b6bacc))
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -5014,7 +5014,7 @@
   (symbol (lib_id "0_connector:Molex Ultra-Fit 2pos IN") (at 46.99 41.148 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 588ab757-1f66-460d-bd42-56a661a86a4e)
-    (property "Reference" "J4" (at 46.99 34.798 0)
+    (property "Reference" "J1" (at 46.99 34.798 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Molex Ultra-Fit" (at 46.99 34.798 0)
@@ -5049,7 +5049,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -5058,7 +5058,7 @@
   (symbol (lib_id "Device:R_Small") (at 295.91 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c3ead2b-3f31-46c9-a28b-aaaf31421bdc)
-    (property "Reference" "R5" (at 295.91 73.025 90)
+    (property "Reference" "R1" (at 295.91 73.025 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 295.91 77.47 90)
@@ -5096,7 +5096,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5113,7 +5113,7 @@
   (symbol (lib_id "power:GND") (at 59.69 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d7d9d38-ca6a-4332-90a6-baade59fe9a6)
-    (property "Reference" "#PWR015" (at 59.69 163.83 0)
+    (property "Reference" "#PWR018" (at 59.69 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.817 161.8742 0)
@@ -5129,7 +5129,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5169,7 +5169,7 @@
   (symbol (lib_id "Device:LED") (at 74.295 180.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f710e2f-b0ff-4550-abfb-1beec2bcf85d)
-    (property "Reference" "D3" (at 74.295 177.8 0)
+    (property "Reference" "D5" (at 74.295 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RED LED" (at 74.295 177.8 0)
@@ -5207,7 +5207,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "D3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5224,7 +5224,7 @@
   (symbol (lib_id "power:GND") (at 86.36 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 736050c6-7fc6-4dfc-900e-a718e0d5ef62)
-    (property "Reference" "#PWR016" (at 86.36 165.1 0)
+    (property "Reference" "#PWR019" (at 86.36 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.487 163.1442 0)
@@ -5240,7 +5240,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5254,40 +5254,40 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 111.76 213.36 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 203.2 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74652d04-a0d9-4f40-9435-8833743cd878)
-    (property "Reference" "R3" (at 105.41 212.09 0)
+    (property "Reference" "R7" (at 196.85 218.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7k" (at 105.41 214.63 0)
+    (property "Value" "4.7k" (at 196.85 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 109.982 213.36 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 201.422 219.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 111.76 213.36 0)
+    (property "Datasheet" "~" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor" (at 111.76 213.36 0)
+    (property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.7kΩ 0603 Chip Resistor" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C99782" (at 111.76 213.36 0)
+    (property "LCSC" "C99782" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "RC0603FR-074K7L" (at 111.76 213.36 0)
+    (property "MPN" "RC0603FR-074K7L" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "YAGEO" (at 111.76 213.36 0)
+    (property "Manufacturer" "YAGEO" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "0603" (at 111.76 213.36 0)
+    (property "Package" "0603" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey P/N" "-" (at 111.76 213.36 0)
+    (property "Digikey P/N" "-" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey Page" "-" (at 111.76 213.36 0)
+    (property "Digikey Page" "-" (at 203.2 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3816a110-fdae-412d-a96a-f6ee8f03f1c4))
@@ -5295,7 +5295,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -5354,40 +5354,40 @@
     )
   )
 
-  (symbol (lib_id "dk_Temperature-Sensors-Analog-and-Digital-Output:DS18B20_") (at 120.65 218.44 0) (unit 1)
+  (symbol (lib_id "dk_Temperature-Sensors-Analog-and-Digital-Output:DS18B20_") (at 212.09 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78132e19-e591-46e9-b4c9-22880cefbf5e)
-    (property "Reference" "U5" (at 124.46 217.17 0)
+    (property "Reference" "U4" (at 215.9 223.52 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "DS18B20_" (at 124.46 219.71 0)
+    (property "Value" "DS18B20_" (at 215.9 226.06 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "digikey-footprints:TO-92-3" (at 125.73 213.36 0)
+    (property "Footprint" "digikey-footprints:TO-92-3" (at 217.17 219.71 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf" (at 125.73 210.82 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf" (at 217.17 217.17 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "MPN" "DS18B20+" (at 125.73 205.74 0)
+    (property "MPN" "DS18B20+" (at 217.17 212.09 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Description" "1-Wire Temperature Sensor" (at 125.73 193.04 0)
+    (property "Description" "1-Wire Temperature Sensor" (at 217.17 199.39 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Manufacturer" "Maxim Integrated" (at 125.73 190.5 0)
+    (property "Manufacturer" "Maxim Integrated" (at 217.17 196.85 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Digikey P/N" "DS18B20+-ND" (at 120.65 218.44 0)
+    (property "Digikey P/N" "DS18B20+-ND" (at 212.09 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey Page" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS18B20/956983" (at 120.65 218.44 0)
+    (property "Digikey Page" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS18B20/956983" (at 212.09 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "TO92-3" (at 120.65 218.44 0)
+    (property "Package" "TO92-3" (at 212.09 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "-" (at 120.65 218.44 0)
+    (property "LCSC" "-" (at 212.09 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15df5795-ef93-488e-9094-bdc940568803))
@@ -5396,7 +5396,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "U5") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -5407,26 +5407,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 120.65 226.06 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 212.09 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79bf0788-62a1-4bd3-80fb-d97ecb2dee7f)
-    (property "Reference" "#PWR023" (at 120.65 232.41 0)
+    (property "Reference" "#PWR026" (at 212.09 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 120.65 231.14 0)
+    (property "Value" "GND" (at 212.09 237.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 226.06 0)
+    (property "Footprint" "" (at 212.09 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 120.65 226.06 0)
+    (property "Datasheet" "" (at 212.09 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid da1b998e-26e9-424d-a614-347bfbceb046))
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -5440,7 +5440,7 @@
   (symbol (lib_id "power:+12V") (at 43.18 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7af4bf6b-5412-42f4-921e-ca222291c334)
-    (property "Reference" "#PWR04" (at 43.18 80.01 0)
+    (property "Reference" "#PWR09" (at 43.18 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 43.561 71.8058 0)
@@ -5456,7 +5456,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5470,7 +5470,7 @@
   (symbol (lib_id "Diode:PMEG045V100EPD") (at 64.77 38.608 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83ed9341-6105-46f0-a854-759e2ef15353)
-    (property "Reference" "D7" (at 65.0875 32.258 0)
+    (property "Reference" "D1" (at 65.0875 32.258 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PMEG045V100EPD" (at 65.0875 34.798 0)
@@ -5491,7 +5491,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "D7") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -5547,7 +5547,7 @@
   (symbol (lib_id "power:+5V") (at 67.31 153.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89bef8eb-2ed8-48bf-8460-15a1aa4f58f7)
-    (property "Reference" "#PWR014" (at 67.31 156.845 0)
+    (property "Reference" "#PWR017" (at 67.31 156.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 67.691 148.6408 0)
@@ -5563,7 +5563,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5624,7 +5624,7 @@
   (symbol (lib_id "power:+5V") (at 84.455 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cb108f6-3311-44b5-9590-57361d286426)
-    (property "Reference" "#PWR05" (at 84.455 80.01 0)
+    (property "Reference" "#PWR010" (at 84.455 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 84.836 71.8058 0)
@@ -5640,7 +5640,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5654,7 +5654,7 @@
   (symbol (lib_id "power:+5V") (at 41.148 117.348 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e2f3c7a-bd6c-4e86-9c05-99751e4055e9)
-    (property "Reference" "#PWR030" (at 41.148 121.158 0)
+    (property "Reference" "#PWR013" (at 41.148 121.158 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.529 112.9538 0)
@@ -5670,7 +5670,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5736,7 +5736,7 @@
   (symbol (lib_id "Device:C_Small") (at 41.148 124.206 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 996aabe8-3013-4ea3-b188-870398cec422)
-    (property "Reference" "C17" (at 35.306 124.206 0)
+    (property "Reference" "C4" (at 35.306 124.206 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 35.306 126.746 0)
@@ -5759,7 +5759,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "C17") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5798,7 +5798,7 @@
   (symbol (lib_id "Device:LED") (at 303.53 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2d73d5c-3c46-4add-b1eb-c4d9ccc5e85d)
-    (property "Reference" "D9" (at 303.53 72.39 0)
+    (property "Reference" "D2" (at 303.53 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RED LED" (at 303.53 72.39 0)
@@ -5836,7 +5836,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "D9") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -5850,40 +5850,40 @@
     )
   )
 
-  (symbol (lib_id "LED:WS2812B") (at 58.42 213.36 0) (unit 1)
+  (symbol (lib_id "LED:WS2812B") (at 149.86 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa69c6ec-325e-4ffe-80bd-90301ffb8827)
-    (property "Reference" "D4" (at 68.58 207.01 0)
+    (property "Reference" "D6" (at 160.02 213.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "WS2812B" (at 68.58 209.55 0)
+    (property "Value" "WS2812B" (at 160.02 215.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (at 59.69 220.98 0)
+    (property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (at 151.13 227.33 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf" (at 60.96 222.885 0)
+    (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf" (at 152.4 229.235 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "LCSC" "C965555" (at 58.42 213.36 0)
+    (property "LCSC" "C965555" (at 149.86 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "WS2812B-2020" (at 58.42 213.36 0)
+    (property "MPN" "WS2812B-2020" (at 149.86 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Worldsemi" (at 58.42 213.36 0)
+    (property "Manufacturer" "Worldsemi" (at 149.86 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "SMD,2x2mm" (at 58.42 213.36 0)
+    (property "Package" "SMD,2x2mm" (at 149.86 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "2020 WS2812B RGB LED" (at 58.42 213.36 0)
+    (property "Description" "2020 WS2812B RGB LED" (at 149.86 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey P/N" "-" (at 58.42 213.36 0)
+    (property "Digikey P/N" "-" (at 149.86 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey Page" "-" (at 58.42 213.36 0)
+    (property "Digikey Page" "-" (at 149.86 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid a2e933f6-c706-422b-8543-3908b7b530d6))
@@ -5893,7 +5893,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "D4") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -5907,7 +5907,7 @@
   (symbol (lib_id "power:GND") (at 142.24 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac0003b1-25ae-4c67-b121-ba1b6b76e50b)
-    (property "Reference" "#PWR033" (at 142.24 137.16 0)
+    (property "Reference" "#PWR015" (at 142.24 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 135.89 0)
@@ -5923,7 +5923,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5932,7 +5932,7 @@
   (symbol (lib_id "Device:C_Small") (at 149.86 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af482519-7a08-41ea-ba2b-420723ee0780)
-    (property "Reference" "C18" (at 152.4 123.1963 0)
+    (property "Reference" "C6" (at 152.4 123.1963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 152.4 125.7363 0)
@@ -5970,7 +5970,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "C18") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -5979,7 +5979,7 @@
   (symbol (lib_id "Device:D_Small") (at 322.58 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9040514-ba16-487e-8eaf-c403ee4a434d)
-    (property "Reference" "D8" (at 322.58 77.47 0)
+    (property "Reference" "D3" (at 322.58 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 322.58 80.01 0)
@@ -6023,7 +6023,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "D8") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -6032,7 +6032,7 @@
   (symbol (lib_id "Device:LED") (at 73.66 155.575 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbe96420-e3d3-4753-be50-ec9134c1e67e)
-    (property "Reference" "D2" (at 73.66 153.035 0)
+    (property "Reference" "D4" (at 73.66 153.035 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GREEN LED" (at 73.66 153.035 0)
@@ -6070,7 +6070,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "D2") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6087,7 +6087,7 @@
   (symbol (lib_id "power:GND") (at 69.088 131.826 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c42a572d-5604-4785-bee5-f7d3cb247565)
-    (property "Reference" "#PWR029" (at 69.088 138.176 0)
+    (property "Reference" "#PWR016" (at 69.088 138.176 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.215 136.2202 0)
@@ -6103,7 +6103,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6117,7 +6117,7 @@
   (symbol (lib_id "0_connector:WIZnet_J1B1211CCD_RJ45") (at 177.8 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5171283-b9bc-4d1c-8594-4e4c92231e72)
-    (property "Reference" "J6" (at 175.26 154.94 90)
+    (property "Reference" "J3" (at 175.26 154.94 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WIZnet_J1B1211CCD_RJ45" (at 165.1 160.02 90)
@@ -6156,7 +6156,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "J6") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -6165,7 +6165,7 @@
   (symbol (lib_id "Device:R_Small") (at 81.915 155.575 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8195e48-579a-47b8-8a8d-7ab4242fafb6)
-    (property "Reference" "R1" (at 81.915 153.67 90)
+    (property "Reference" "R5" (at 81.915 153.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 81.915 158.115 90)
@@ -6203,7 +6203,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "R1") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6220,7 +6220,7 @@
   (symbol (lib_id "power:+12V") (at 78.74 33.528 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb79d1ee-3aad-476e-b890-7b1fc85aeadf)
-    (property "Reference" "#PWR027" (at 78.74 37.338 0)
+    (property "Reference" "#PWR01" (at 78.74 37.338 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 79.121 29.1338 0)
@@ -6236,7 +6236,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6250,7 +6250,7 @@
   (symbol (lib_id "MeowWolf_Devices:R-78E5.0-1.0") (at 66.04 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccd4b91a-8362-4ad9-9289-8731f898367f)
-    (property "Reference" "U1" (at 66.04 74.8284 0)
+    (property "Reference" "U2" (at 66.04 74.8284 0)
       (effects (font (size 1.143 1.143)))
     )
     (property "Value" "R-78E5.0-1.0" (at 66.04 76.962 0)
@@ -6289,7 +6289,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6303,7 +6303,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 71.12 33.528 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd128543-d42b-449c-80f0-8062ec205bd4)
-    (property "Reference" "#FLG04" (at 71.12 31.623 0)
+    (property "Reference" "#FLG01" (at 71.12 31.623 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 71.12 29.1084 0)
@@ -6319,7 +6319,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6385,7 +6385,7 @@
   (symbol (lib_id "power:+3.3V") (at 334.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1f3bbff-0d81-4139-ab2a-b4956ac2b188)
-    (property "Reference" "#PWR034" (at 334.01 40.64 0)
+    (property "Reference" "#PWR05" (at 334.01 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 334.01 31.75 0)
@@ -6401,7 +6401,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6415,7 +6415,7 @@
   (symbol (lib_id "power:GND") (at 66.04 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcfe94ee-7bbb-4603-9279-cd625f8a7369)
-    (property "Reference" "#PWR06" (at 66.04 100.33 0)
+    (property "Reference" "#PWR011" (at 66.04 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.167 98.3742 0)
@@ -6431,7 +6431,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6445,7 +6445,7 @@
   (symbol (lib_id "MeowWolf_Power:+12V_ISO") (at 298.45 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df6c075a-9775-4ed6-96bf-d30548a0d9bb)
-    (property "Reference" "#PWR02" (at 298.45 40.64 0)
+    (property "Reference" "#PWR03" (at 298.45 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V_ISO" (at 298.45 31.75 0)
@@ -6461,7 +6461,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -6470,7 +6470,7 @@
   (symbol (lib_id "power:+5V") (at 208.28 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eae2119f-be3a-4b41-b005-9f3f9d26171d)
-    (property "Reference" "#PWR032" (at 208.28 40.64 0)
+    (property "Reference" "#PWR02" (at 208.28 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 208.28 31.75 0)
@@ -6486,7 +6486,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -6549,7 +6549,7 @@
   (symbol (lib_id "power:GND") (at 312.42 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4f29fe3-0e39-4187-b799-2c9462e2b623)
-    (property "Reference" "#PWR037" (at 312.42 104.14 0)
+    (property "Reference" "#PWR012" (at 312.42 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 312.42 102.87 0)
@@ -6565,7 +6565,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -6579,7 +6579,7 @@
   (symbol (lib_id "power:GND") (at 58.42 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5ba957e-daaf-4e39-a0e0-ba7057a2206f)
-    (property "Reference" "#PWR018" (at 58.42 186.69 0)
+    (property "Reference" "#PWR021" (at 58.42 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 185.42 0)
@@ -6595,7 +6595,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -6609,7 +6609,7 @@
   (symbol (lib_id "power:+3.3V") (at 67.945 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc438e96-a204-4574-92a5-c117188eabcd)
-    (property "Reference" "#PWR017" (at 67.945 181.61 0)
+    (property "Reference" "#PWR020" (at 67.945 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 68.326 173.4058 0)
@@ -6625,7 +6625,7 @@
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -6636,26 +6636,26 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 120.65 208.28 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 212.09 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff4fdf28-a107-4a3c-a836-60c114641038)
-    (property "Reference" "#PWR021" (at 120.65 212.09 0)
+    (property "Reference" "#PWR024" (at 212.09 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 120.65 203.2 0)
+    (property "Value" "+3.3V" (at 212.09 209.55 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 208.28 0)
+    (property "Footprint" "" (at 212.09 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 120.65 208.28 0)
+    (property "Datasheet" "" (at 212.09 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2b707fb7-42fd-4b3e-8556-b75d6467490b))
     (instances
       (project "GVH_CounterContoller"
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
