@@ -9,12 +9,12 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9175fafe-7c89-4876-b772-593c2d926f48)
   )
-  (fp_text user "PTH D1.02 +/-0.05 " (at -16.5 -4.51) (layer "F.Fab")
-      (effects (font (size 0.393701 0.393701) (thickness 0.15)))
+  (fp_text user "PTH D1.02 +/-0.05 " (at -16.5 -4.51) (layer "F.Fab") hide
+      (effects (font (size 0.393701 0.393701) (thickness 0.098425)))
     (tstamp 4b97fad0-d8e2-4bc2-8c2b-2a81798216f3)
   )
-  (fp_text user "NPTH D3.00 +/-0.05 " (at -16.5 -3.76) (layer "F.Fab")
-      (effects (font (size 0.393701 0.393701) (thickness 0.15)))
+  (fp_text user "NPTH D3.00 +/-0.05 " (at -16.5 -3.76) (layer "F.Fab") hide
+      (effects (font (size 0.393701 0.393701) (thickness 0.098425)))
     (tstamp d8528b93-fd73-4f85-b89d-4a73234f43c0)
   )
   (fp_line (start -15.32 -0.98) (end -13.11 -0.98)
@@ -104,4 +104,9 @@
   (pad "3" thru_hole circle (at -6 0) (size 1.52 1.52) (drill 1.02) (layers "*.Cu") (tstamp 4921f768-0d46-4072-a9a9-a02d99c6f7a8))
   (pad "4" thru_hole circle (at -9 0) (size 1.52 1.52) (drill 1.02) (layers "*.Cu") (tstamp e9a67cf6-7fb2-4089-bdf3-d06a656e4f86))
   (pad "5" thru_hole circle (at -12 0) (size 1.52 1.52) (drill 1.02) (layers "*.Cu") (tstamp c45e8f03-5d6a-4529-88f0-295c60ce16ed))
+  (model "${KIPRJMOD}/lib/3d_models/MOLEX-MICROFIT-RA-5POS-0436500500.step"
+    (offset (xyz -6 -9 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
