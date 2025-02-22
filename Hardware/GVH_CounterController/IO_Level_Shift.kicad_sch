@@ -429,14 +429,6 @@
     (uuid eccd6e97-d9a8-46fd-931f-bcbccbf854c8)
   )
 
-  (netclass_flag "" (length 1.27) (shape dot) (at 128.27 53.34 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4166b07f-c2f7-4240-a3a1-7ad8cf218a05)
-    (property "Netclass" "Default" (at 128.9685 52.07 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-  )
-
   (symbol (lib_id "KTX-MultiPCB:74AHCT2G125") (at 139.7 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 497863fa-1bb7-4ea3-b2ca-a4175cd0bfa7)
