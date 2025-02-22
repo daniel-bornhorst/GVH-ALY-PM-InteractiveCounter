@@ -5,87 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "0_connector:Molex Micro-Fit 5pos" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Molex Micro-Fit 5pos" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "0_connector:MOLEX_MICROFIT-RA-5POS_436500500" (at 2.54 12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500500_sd.pdf?inline" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "MOLEX" (at -13.97 6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mfg. P/N" "0436500500" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Digikey Page" "https://www.digikey.com/en/products/detail/molex/0436500500/268992?s=N4IgTCBcDaIAwBYDMA2ArHOG4gLoF8g" (at 1.27 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Digikey P/N" "WM1863-ND" (at 20.32 6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Molex Micro-Fit 5pos_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 6.35) (end 1.27 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -193,58 +112,6 @@
         (pin input line (at -8.89 -2.54 0) (length 2.54)
           (name "~{2OE}" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "MeowWolf_Power:+12V_ISO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+12V_ISO" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+12V_ISO_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "+12V_ISO_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+12V_ISO" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -424,10 +291,6 @@
     (stroke (width 0) (type default))
     (uuid 0bc79ccf-9ec7-4852-9ff0-e2c820080338)
   )
-  (wire (pts (xy 203.2 54.61) (xy 203.2 73.66))
-    (stroke (width 0) (type default))
-    (uuid 0e8de557-c1d0-49d4-a576-bd724cfd522a)
-  )
   (wire (pts (xy 128.27 63.5) (xy 130.81 63.5))
     (stroke (width 0) (type default))
     (uuid 1331b0e6-0684-4e34-b76f-8c77e9c6e3fa)
@@ -440,11 +303,7 @@
     (stroke (width 0) (type default))
     (uuid 2c25fac4-1fc1-4ea5-975a-5121a59af1d0)
   )
-  (wire (pts (xy 185.928 73.66) (xy 185.928 63.5))
-    (stroke (width 0) (type default))
-    (uuid 3326a6ca-00f6-45ea-8a99-006fc0560abc)
-  )
-  (wire (pts (xy 77.47 115.57) (xy 77.47 81.28))
+  (wire (pts (xy 104.14 115.57) (xy 104.14 81.28))
     (stroke (width 0) (type default))
     (uuid 3cd79388-d75d-489b-a050-dc16299f42b5)
   )
@@ -452,7 +311,7 @@
     (stroke (width 0) (type default))
     (uuid 41d8561e-4688-4392-8c69-a872af01a36e)
   )
-  (wire (pts (xy 166.37 118.11) (xy 147.32 118.11))
+  (wire (pts (xy 165.1 118.11) (xy 147.32 118.11))
     (stroke (width 0) (type default))
     (uuid 4877284a-40dd-4c4b-94f9-744622e49ccf)
   )
@@ -460,17 +319,9 @@
     (stroke (width 0) (type default))
     (uuid 497bacde-175d-41c0-a2df-cab68f4b7709)
   )
-  (wire (pts (xy 129.54 115.57) (xy 77.47 115.57))
+  (wire (pts (xy 129.54 115.57) (xy 104.14 115.57))
     (stroke (width 0) (type default))
     (uuid 504f4334-d594-491d-ac4d-eae1ef124b1d)
-  )
-  (wire (pts (xy 166.37 63.5) (xy 148.59 63.5))
-    (stroke (width 0) (type default))
-    (uuid 5136f51f-8424-4477-a08a-f24212f6f6e7)
-  )
-  (wire (pts (xy 185.928 63.5) (xy 187.96 63.5))
-    (stroke (width 0) (type default))
-    (uuid 56b8f4d8-902f-4cf4-bf3c-15676ed0383e)
   )
   (wire (pts (xy 138.43 105.41) (xy 154.94 105.41))
     (stroke (width 0) (type default))
@@ -496,19 +347,15 @@
     (stroke (width 0) (type default))
     (uuid 711dac75-3324-4884-8e27-9ead2a81ee1c)
   )
-  (wire (pts (xy 181.61 43.18) (xy 181.61 60.96))
-    (stroke (width 0) (type default))
-    (uuid 75db1f8d-6c6f-4d4a-8247-a0d523afcfcb)
-  )
-  (wire (pts (xy 166.37 68.58) (xy 187.96 68.58))
+  (wire (pts (xy 165.1 83.82) (xy 177.8 83.82))
     (stroke (width 0) (type default))
     (uuid 790ba1a6-b469-4f4f-9c8b-1a500143d006)
   )
-  (wire (pts (xy 77.47 81.28) (xy 68.58 81.28))
+  (wire (pts (xy 104.14 81.28) (xy 68.58 81.28))
     (stroke (width 0) (type default))
     (uuid 7a579d83-b0a8-475c-8569-3296df5e7616)
   )
-  (wire (pts (xy 148.59 73.66) (xy 185.928 73.66))
+  (wire (pts (xy 148.59 73.66) (xy 177.8 73.66))
     (stroke (width 0) (type default))
     (uuid 802485ab-a9a2-4a6a-a040-d98cd72e9121)
   )
@@ -520,7 +367,7 @@
     (stroke (width 0) (type default))
     (uuid 8d445fb9-3dd5-42f3-b3b9-e00bdd8dbf45)
   )
-  (wire (pts (xy 187.96 66.04) (xy 166.37 66.04))
+  (wire (pts (xy 148.59 63.5) (xy 177.8 63.5))
     (stroke (width 0) (type default))
     (uuid 99dc5f6c-4ac4-4f3d-9d68-e583f9cfb9ad)
   )
@@ -532,37 +379,21 @@
     (stroke (width 0) (type default))
     (uuid b3f7d790-045e-4b39-9726-a871a974516e)
   )
-  (wire (pts (xy 166.37 66.04) (xy 166.37 63.5))
-    (stroke (width 0) (type default))
-    (uuid b8ef3e90-4c35-47cc-ad0b-033fcf2898f6)
-  )
-  (wire (pts (xy 187.96 60.96) (xy 181.61 60.96))
-    (stroke (width 0) (type default))
-    (uuid bc2cbbec-18dc-4398-a129-51de557f0af1)
-  )
   (wire (pts (xy 154.94 115.57) (xy 154.94 134.62))
     (stroke (width 0) (type default))
     (uuid bf7b3549-cc9d-4605-b7c8-d0a9b40f0006)
-  )
-  (wire (pts (xy 187.96 54.61) (xy 203.2 54.61))
-    (stroke (width 0) (type default))
-    (uuid d56d8748-fe79-444f-9106-14eca339156a)
   )
   (wire (pts (xy 139.7 52.07) (xy 139.7 53.34))
     (stroke (width 0) (type default))
     (uuid da5ce39f-7638-4393-83ce-297dcb3a8e9c)
   )
-  (wire (pts (xy 166.37 68.58) (xy 166.37 118.11))
+  (wire (pts (xy 165.1 83.82) (xy 165.1 118.11))
     (stroke (width 0) (type default))
     (uuid e352bf97-3b97-46cc-9077-e339e2b65967)
   )
   (wire (pts (xy 154.94 107.95) (xy 154.94 105.41))
     (stroke (width 0) (type default))
     (uuid e4706ed4-454a-4f17-8f20-1b2f31dc68bf)
-  )
-  (wire (pts (xy 187.96 54.61) (xy 187.96 58.42))
-    (stroke (width 0) (type default))
-    (uuid f2428498-cad2-40ae-95fa-e631753b92a7)
   )
   (wire (pts (xy 139.7 82.55) (xy 139.7 83.82))
     (stroke (width 0) (type default))
@@ -573,11 +404,23 @@
     (uuid fbc0ce46-d61a-435f-b7ef-0382670933e0)
   )
 
+  (hierarchical_label "CLK_OUT" (shape output) (at 177.8 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 52321ffc-1241-44d1-8340-41afd60ec072)
+  )
+  (hierarchical_label "LOAD_OUT" (shape output) (at 177.8 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5cca6f07-4737-4f73-a1eb-ccdd59465c13)
+  )
+  (hierarchical_label "SERIAL_IN" (shape input) (at 177.8 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b8f03947-2e37-4c86-acec-5f802acd09e5)
+  )
   (hierarchical_label "LOAD" (shape input) (at 68.58 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c522f4e7-522c-49f8-ae23-38702014e109)
   )
-  (hierarchical_label "SERIAL_IN" (shape output) (at 68.58 81.28 180) (fields_autoplaced)
+  (hierarchical_label "SERIAL" (shape output) (at 68.58 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ea723b5e-8721-4539-b919-b0cfa6986b54)
   )
@@ -643,109 +486,19 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "U5") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
           (reference "U7") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
           (reference "U9") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
           (reference "U11") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
         (path "/2ec5ef01-6535-4a44-84bf-43de931740a6"
           (reference "U4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0_connector:Molex Micro-Fit 5pos") (at 193.04 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 676cfcf6-2b5b-4b05-85b6-0548c94d3a4f)
-    (property "Reference" "J4" (at 195.58 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Molex Micro-Fit 5pos" (at 195.58 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "0_connector:MOLEX_MICROFIT-RA-5POS_436500500" (at 195.58 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500500_sd.pdf?inline" (at 193.04 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "MOLEX" (at 179.07 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digikey Page" "https://www.digikey.com/en/products/detail/molex/0436500500/268992?s=N4IgTCBcDaIAwBYDMA2ArHOG4gLoF8g" (at 194.31 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digikey P/N" "WM1863-ND" (at 213.36 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0436500500" (at 193.04 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "3" (uuid 33de789c-18f9-4548-a82c-e3dc0c18bcb7))
-    (pin "1" (uuid 079efe2a-4dff-4e54-a034-0e9f122a173e))
-    (pin "2" (uuid 95edbb87-f216-4589-83f4-2b50447a1e2e))
-    (pin "4" (uuid 13143376-2fcc-472e-9917-f612cca8bf43))
-    (pin "5" (uuid f90fc80e-502f-4e1b-8d5d-d5a66cd072b9))
-    (instances
-      (project "GVH_CounterContoller"
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "J4") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
-          (reference "J4") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
-          (reference "J5") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
-          (reference "J6") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
-          (reference "J7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MeowWolf_Power:+12V_ISO") (at 181.61 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 90380085-7df2-4cdc-a236-45fd7a82b4af)
-    (property "Reference" "#PWR08" (at 181.61 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V_ISO" (at 181.61 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 181.61 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 181.61 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ebec9fa6-8b33-4f9e-8664-14989ee9009b))
-    (instances
-      (project "GVH_CounterContoller"
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR08") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
-          (reference "#PWR027") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
-          (reference "#PWR033") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
-          (reference "#PWR039") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
-          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -775,56 +528,14 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "#PWR030") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
-          (reference "#PWR036") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
-          (reference "#PWR042") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
-          (reference "#PWR048") (unit 1)
-        )
-      )
-      (project "GVH-SwissArmyPCB"
-        (path "/38ccbc2b-e79d-43d1-80a7-cb797d9e77eb"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 203.2 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid af594cee-1c42-420d-aa4d-49a9ada5807b)
-    (property "Reference" "#PWR012" (at 203.2 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 203.2 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 203.2 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 203.2 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5fd47fac-eb32-4688-bc2b-1ef6af0806a4))
-    (instances
-      (project "GVH_CounterContoller"
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31"
-          (reference "#PWR012") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
           (reference "#PWR029") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
-          (reference "#PWR035") (unit 1)
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
+          (reference "#PWR036") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
-          (reference "#PWR041") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
-          (reference "#PWR047") (unit 1)
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -859,14 +570,14 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "#PWR032") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
+          (reference "#PWR034") (unit 1)
+        )
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
           (reference "#PWR038") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
-          (reference "#PWR044") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
-          (reference "#PWR050") (unit 1)
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
+          (reference "#PWR042") (unit 1)
         )
       )
       (project "GVH-SwissArmyPCB"
@@ -926,13 +637,13 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "U6") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
           (reference "U8") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
           (reference "U10") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
           (reference "U12") (unit 1)
         )
       )
@@ -968,14 +679,14 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "#PWR028") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
-          (reference "#PWR034") (unit 1)
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
+          (reference "#PWR027") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
-          (reference "#PWR040") (unit 1)
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
+          (reference "#PWR035") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
-          (reference "#PWR046") (unit 1)
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -1010,14 +721,14 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "#PWR031") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
+          (reference "#PWR033") (unit 1)
+        )
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
           (reference "#PWR037") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
-          (reference "#PWR043") (unit 1)
-        )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
-          (reference "#PWR049") (unit 1)
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "KTX-MultiPCB"
@@ -1074,13 +785,13 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "C7") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
           (reference "C9") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
           (reference "C11") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
           (reference "C13") (unit 1)
         )
       )
@@ -1133,13 +844,13 @@
         (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/02b7aafc-8148-4cc9-9fc3-d003e13d006d"
           (reference "C8") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/faf6bfaa-fb95-4c51-a40c-d4e45634b72e"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/ceed152d-6309-45a9-8570-f38fc7c4969d"
           (reference "C10") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a242e087-3c33-4103-950c-bedfef2c7895"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/a94a8adf-b589-4482-b569-f5fa7e09912e"
           (reference "C12") (unit 1)
         )
-        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/dd6c1885-12d3-48a8-b2b3-b61dd5347fc0"
+        (path "/2012002c-7ba5-4575-b93c-d8b37d21ac31/216fbd4a-7ffb-473e-8e95-db0ad24f87f6"
           (reference "C14") (unit 1)
         )
       )

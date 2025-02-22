@@ -511,7 +511,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+5V": ".055"
+      "+5V": "Default"
     },
     "netclass_patterns": [
       {
@@ -591,15 +591,15 @@
       "IO_Level_Shift"
     ],
     [
-      "faf6bfaa-fb95-4c51-a40c-d4e45634b72e",
+      "ceed152d-6309-45a9-8570-f38fc7c4969d",
       "IO_Level_Shift1"
     ],
     [
-      "a242e087-3c33-4103-950c-bedfef2c7895",
+      "a94a8adf-b589-4482-b569-f5fa7e09912e",
       "IO_Level_Shift2"
     ],
     [
-      "dd6c1885-12d3-48a8-b2b3-b61dd5347fc0",
+      "216fbd4a-7ffb-473e-8e95-db0ad24f87f6",
       "IO_Level_Shift3"
     ]
   ],
