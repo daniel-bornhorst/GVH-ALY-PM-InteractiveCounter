@@ -580,22 +580,6 @@
     [
       "2012002c-7ba5-4575-b93c-d8b37d21ac31",
       ""
-    ],
-    [
-      "02b7aafc-8148-4cc9-9fc3-d003e13d006d",
-      "IO_Level_Shift"
-    ],
-    [
-      "ceed152d-6309-45a9-8570-f38fc7c4969d",
-      "IO_Level_Shift1"
-    ],
-    [
-      "a94a8adf-b589-4482-b569-f5fa7e09912e",
-      "IO_Level_Shift2"
-    ],
-    [
-      "216fbd4a-7ffb-473e-8e95-db0ad24f87f6",
-      "IO_Level_Shift3"
     ]
   ],
   "text_variables": {}
